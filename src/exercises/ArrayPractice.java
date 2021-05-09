@@ -7,16 +7,19 @@ public class ArrayPractice {
     public static void main(String[] args) {
         int[] testArray = {1, 1, 2, 3, 5, 8};
 
+        //prints numbers all on individual lines
         for (int array: testArray) {
             System.out.println(array);
         }
 
+        //prints numbers all on individual lines
         for (int i = 0; i < testArray.length; i++){
             System.out.println(testArray[i]);
         }
 
-            System.out.println(Arrays.toString(testArray));
+         //   System.out.println(Arrays.toString(testArray));
 
+        //print odd numbers from array all on individual lines
         for (int i = 0; i < testArray.length; i++){
             if(testArray[i] % 2 != 0) {
                 System.out.println(testArray[i]);
